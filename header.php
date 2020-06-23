@@ -7,4 +7,12 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    
+<header>
+    <?php
+        wp_nav_menu(
+          array(
+                  'Theme Location' => 'top-menu',
+          )
+        );
+    ?>
+</header>
