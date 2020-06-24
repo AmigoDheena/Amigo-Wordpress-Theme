@@ -6,6 +6,7 @@ get_header('contact');
 if (have_posts()){
 	while (have_posts()){
 		the_post(); ?>
+        <section class="page-wrap">
 		<div class="container">
 			<div class="row">
 	            <div class="col-lg-6">
@@ -16,6 +17,7 @@ if (have_posts()){
 				</div>
 			</div>
 		</div>
+        </section>
 
 	<?php
 	}

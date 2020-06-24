@@ -8,11 +8,14 @@
 </head>
 <body>
 <header>
-    <?php
-        wp_nav_menu(
-          array(
-                  'Theme Location' => 'top-menu',
-          )
-        );
-    ?>
+    <div class="container">
+        <?php
+            wp_nav_menu(
+              array(
+                  'location' => 'top-menu',
+                  'menu_class' => 'top-menu-class'
+              )
+            );
+        ?>
+    </div>
 </header>
